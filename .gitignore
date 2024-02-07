@@ -65,7 +65,9 @@ typings
 # Yarn Integrity file
 .yarn-integrity
 
-*/texto.txt
+# Ignorar texto.txt
+texto.txt
+
 # Optional eslint cache
 .eslintcache
 
