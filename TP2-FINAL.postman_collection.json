@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "d8c50c30-d3b7-42f5-8e46-3d3ca05b45d0",
+		"name": "TP2-FINAL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23332506"
+	},
+	"item": [
+		{
+			"name": "concatWords",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"words\":\"por piedras y rocas\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/text/concatWords",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"text",
+						"concatWords"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "showText",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/text/showText",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"text",
+						"showText"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "showTextByFilter",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"amount\":9,\r\n    \"startpos\":2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/text/showTextByFilter",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"text",
+						"showTextByFilter"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
