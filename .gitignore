@@ -65,6 +65,7 @@ typings
 # Yarn Integrity file
 .yarn-integrity
 
+./src/texto.txt
 # Optional eslint cache
 .eslintcache
 
